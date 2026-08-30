@@ -4,6 +4,10 @@ version: "1.0"
 description: >
   Represents the logical application managed by the Mobile Framework.
   
+documentation: 
+  id: mobile-app
+  uri: ../../../docs/concepts/mobile-app.md
+  
 properties: 
   id: 
     type: Identifier
