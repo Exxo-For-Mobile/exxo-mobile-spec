@@ -9,11 +9,15 @@ documentation:
   uri: ../../../docs/concepts/mobile-app.md
   
 properties: 
+
   id: 
     type: Identifier
     required: true
+    description: > 
+      A unique identifier that distinguishes this MobileApp from other applications within the applicable runtime or deployment environment.
     
 operations: 
+
   initialize: 
     description: > 
       Initializes the application and its framework-managed resources.
