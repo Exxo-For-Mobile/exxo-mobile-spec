@@ -1,0 +1,37 @@
+name: AppContext
+version: "1.0"
+
+properties: 
+
+  appId: 
+  
+    type: Identifier
+    required: true
+    
+  appVersion: 
+  
+    type: Version
+    required: false
+    
+  metadata: 
+  
+    type: Metadata
+    required: false
+    
+operations: 
+
+  getModule: 
+  
+    parameters: 
+    
+      id: 
+        type: Identifier
+        
+      returns: 
+      
+        type: Module
+        nullable: true
+        
+  getModules: 
+    returns: 
+      type: ModuleCollection
