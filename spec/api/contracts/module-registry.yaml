@@ -1,6 +1,10 @@
 name: ModuleRegistry
 version: 1.0
 
+documentation: 
+  id: module-registry
+  uri: ../../../docs/concepts/module-registry.md
+
 description: > 
   Provides application-level registration, discovery, access, and runtime loading management for Modules associated with a MobileApp.
 
