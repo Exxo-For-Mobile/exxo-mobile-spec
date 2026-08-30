@@ -1,6 +1,9 @@
 name: AppContext
 version: "1.0"
 
+description: > 
+  Represents the application-scoped context through which a MobileApp and its managed components access application-level runtime resources, configuration, modules, services, and environment information.
+
 properties: 
 
   appId: 
