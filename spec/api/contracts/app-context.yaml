@@ -27,21 +27,41 @@ properties:
 operations: 
 
   getApp: 
+  
     returns: 
       type: MobileApp
+    
+    description: > 
+      Retrieves the MobileApp associated with this AppContext.
       
   getModuleRegistry: 
+  
     returns: 
       type: ModuleRegistry
       
+    description: > 
+      Retrieves the application-level registry used to discover, access and manage Modules associated with the MobileApp.
+      
   getServiceRegistry: 
+  
     returns: 
       type: ServiceRegistry
       
+    description: > 
+      Retrieves the application-level registry used to discover and access Services available within the MobileApp.
+      
   getConfiguration: 
+  
     returns: 
       type: Configuration
       
+    description: > 
+      Retrieves the application-level Configuration available to the MobileApp and its managed components.
+      
   getRuntimeEnvironment: 
+  
     returns: 
       type: RuntimeEnvironment
+      
+    description: > 
+      Retrieves information about the RuntimeEnvironment in which the MobileApp is operating.
