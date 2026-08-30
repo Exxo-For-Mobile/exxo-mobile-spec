@@ -9,14 +9,20 @@ properties:
   appId: 
     type: Identifier
     required: true
+    description: > 
+      A unique identifier that identifies the application associated with this AppContext within the applicable runtime or deployment environment.
     
   appVersion: 
     type: Version
     required: false
+    description: > 
+      The version of the application associated with this AppContext.
     
   metadata: 
     type: Metadata
     required: false
+    description: > 
+      A collection of application-defined descriptive attributes associated with the application represented by this AppContext.
     
 operations: 
 
