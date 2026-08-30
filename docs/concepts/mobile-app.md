@@ -1,5 +1,7 @@
 # MobileApp
 
+**API Contract:** [`mobile-app.yaml`](../../spec/api/contracts/mobile-app.yaml)
+
 ## Definition
 
 MobileApp is the framework-defined representation of a mobile
