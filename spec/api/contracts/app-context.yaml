@@ -4,34 +4,35 @@ version: "1.0"
 properties: 
 
   appId: 
-  
     type: Identifier
     required: true
     
   appVersion: 
-  
     type: Version
     required: false
     
   metadata: 
-  
     type: Metadata
     required: false
     
 operations: 
 
-  getModule: 
-  
-    parameters: 
-    
-      id: 
-        type: Identifier
-        
-      returns: 
-      
-        type: Module
-        nullable: true
-        
-  getModules: 
+  getApp: 
     returns: 
-      type: ModuleCollection
+      type: MobileApp
+      
+  getModuleRegistry: 
+    returns: 
+      type: ModuleRegistry
+      
+  getServiceRegistry: 
+    returns: 
+      type: ServiceRegistry
+      
+  getConfiguration: 
+    returns: 
+      type: Configuration
+      
+  getRuntimeEnvironment: 
+    returns: 
+      type: RuntimeEnvironment
