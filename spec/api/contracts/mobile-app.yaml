@@ -1,0 +1,23 @@
+name: MobileApp
+version: "1.0"
+
+description: >
+  Represents the logical application managed by the Mobile Framework.
+  
+properties: 
+  id: 
+    type: Identifier
+    required: true
+    
+operations: 
+  initialize: 
+    description: > 
+      Initializes the application and its framework-managed resources.
+      
+  start: 
+    description: > 
+      Starts the application after successful initialization.
+      
+  stop: 
+    description: > 
+      Stops the application and releases framework-managed resources.
